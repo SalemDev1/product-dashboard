@@ -4,7 +4,7 @@ function ProductItem({ product }) {
   return (
     <div>
       <h3>{product.name}</h3>
-      <p>Price: ${product.price}</p>
+      <p>Price: ${product.pricee}</p>
       <p>{product.description}</p>
     </div>
   );
