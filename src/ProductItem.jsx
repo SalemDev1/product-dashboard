@@ -1,5 +1,7 @@
-import React from 'react';
+import React from 'react'; // Import React to create components
 
+
+// A component that shows the details of a single product
 function ProductItem({ product }) {
   return (
     <div>
@@ -9,5 +11,5 @@ function ProductItem({ product }) {
     </div>
   );
 }
-
+// Makes this usable in other files
 export default ProductItem;
